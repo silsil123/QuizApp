@@ -1,0 +1,68 @@
+﻿@page
+@using Domain
+@model QuizApp.Pages.Play.Result
+
+@functions
+{
+    string GetBackGroundColor(int qId, int aId)
+    {
+        foreach (var question in Model.Quiz.Questions)
+        {
+            if (question.QuestionId == qId)
+            {
+                foreach (var answer in question.Answers)
+                {
+                    if (answer.AnswerId == aId)
+                    {
+                        if (answer.CorrectAnswer)
+                        {
+                            return "#BFFFBF";
+                        }
+                        foreach (var choice in Model.Game.AnswerChoices)
+                        {
+                            if (choice.AnswerId == aId && choice.QuestionId == qId)
+                            {
+                                if (!answer.CorrectAnswer)
+                                {
+                                    return "#FFA5A5";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return "#EEEEEE";
+    }
+    
+}
+
+<h1>@Model.Quiz.QuizName results: @Model.Game.Points/@Model.Quiz.Questions.Count</h1>
+
+@foreach (var item in Model.Quiz.Questions)
+{
+    <h2>@item.QuestionString</h2>
+    <table class="table text-center">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nr</th>
+            <th scope="col">Answer</th>
+            <th scope="col">Correct</th>
+        </tr>
+        </thead>
+        <tbody>
+        @for (int i = 0; i < item.Answers.Count; i++)
+        {
+            <tr style="background-color: @GetBackGroundColor(item.QuestionId, item.Answers.ElementAt(i).AnswerId)">
+                <th scope="row">@(i + 1)</th>
+                <td>
+                    @Html.Raw(item.Answers.ElementAt(i).AnswerString)
+                </td>
+                <td>
+                    @Html.Raw(item.Answers.ElementAt(i).CorrectAnswer) 
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

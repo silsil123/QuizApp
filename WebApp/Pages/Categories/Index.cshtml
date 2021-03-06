@@ -1,0 +1,22 @@
+﻿@page
+@model QuizApp.Pages.Categories.Index
+
+@{
+    ViewData["Title"] = "Categories";
+}
+<h1>@ViewData["Title"]</h1>
+
+<select class="custom-select custom-select-lg mb-3">
+    <option selected>Already existing categories</option>
+    @foreach (var cat in Model.Categories)
+    {
+        <option value="1">@cat.CategoryString</option>
+    }
+</select>
+<form method="post">
+    <div class="form-group col-4">
+        <label for="newCat">New category</label>
+        <input asp-for="NewCat" class="form-control" id="newCat" placeholder="Enter new category" minlength="1" maxlength="32">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

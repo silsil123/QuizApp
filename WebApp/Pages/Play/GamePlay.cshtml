@@ -1,0 +1,18 @@
+﻿@page
+@model QuizApp.Pages.Play.GamePlay
+
+
+<h3>@Model.Quiz.QuizName Nr. @Model.QuestionNumber</h3>
+
+<h2 class="text-center">@Model.CurrentQuestion.QuestionString</h2>
+
+
+@for (var x = 0; x < @Model.CurrentQuestion.Answers.Count; x++)
+{
+    <div class="col-6 mb-3 mt-3" style="margin: 0 auto">
+        <button onclick="window.location.href = '../Play/GamePlay?id=@Model.Game.GameId&q=@Model.QuestionNumber&c=@x'" 
+            type="button" class="btn btn-primary btn-lg btn-block">
+            @Model.CurrentQuestion.Answers.ElementAt(x).AnswerString
+        </button>
+    </div>
+}

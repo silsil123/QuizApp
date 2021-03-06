@@ -1,0 +1,43 @@
+﻿@page
+@model QuizApp.Pages.CreateQuiz.Index
+
+@{
+    ViewData["Title"] = "Create a new Quiz!";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="col-md-8 mb-3">
+        <label class="form-label">Quiz name</label>
+        <input asp-for="QuizName" class="form-control" minlength="1" maxlength="128" id="QuizName">
+    </div>
+    <div class="col-md-8 mb-3">
+        <label class="form-label">Creator name</label>
+        <input asp-for="CreatorName" class="form-control" minlength="1" maxlength="32" id="CreatorName">
+    </div>
+    <div class="col-md-4 mb-3">
+        <label for="questionNumber">Number of questions</label>
+        <select asp-for="QuestionAmount" class="form-control" id="questionNumber">
+            @foreach (var size in Enumerable.Range(1, 50))
+            {
+                <option value="@size">@size</option>
+            }
+        </select>
+    </div>
+    <div class="col-md-4 mb-3">
+        <label for="questionNumber">Category</label>
+        <select asp-for="CategoryId" class="form-control" id="category">
+            @foreach (var cat in Model.Categories)
+            {
+                <option value="@cat.CategoryId">@cat.CategoryString</option>
+            }
+        </select>
+    </div>
+    <div class="form-group col-md-10 mb-3">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea asp-for="Description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    <div class="col-md-4 mb-5">
+        <button type="submit" class="btn btn-primary btn-lg">Continue</button>
+    </div>
+</form>

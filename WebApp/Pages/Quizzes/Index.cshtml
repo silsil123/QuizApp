@@ -1,0 +1,48 @@
+@page
+@model QuizApp.Pages_Quizzes.IndexModel
+
+@{
+    ViewData["Title"] = "Quizzes";
+}
+
+<h1>List of Quizzes</h1>
+
+<p>
+    <a asp-page="/CreateQuiz/Index">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.Raw("Quiz name")
+            </th>
+            <th>
+                @Html.Raw("Name of the creator")
+            </th>
+            <th>
+                @Html.Raw("Date created")
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Quiz) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuizName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCreated)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.QuizId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.QuizId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.QuizId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

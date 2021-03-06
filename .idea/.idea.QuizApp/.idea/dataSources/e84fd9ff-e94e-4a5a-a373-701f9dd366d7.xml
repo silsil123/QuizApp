@@ -1,0 +1,1940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="silsil_exApp@barrel.itcollege.ee">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.20">
+    <root id="1">
+      <ServerVersion>15.0.4033</ServerVersion>
+      <PermissionsCheckSum>11223958875</PermissionsCheckSum>
+      <Grants>0|root||1|connect sql|G
+0|root||2|view any database|G
+0|root||262|connect sql|G
+0|root||262|create any database|G
+2|||2|connect|G
+3|||2|connect|G
+4|||2|connect|G
+5|||2|connect|G
+</Grants>
+    </root>
+    <database id="2" parent="1" name="00aaaaa_test">
+      <ObjectId>323</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="3" parent="1" name="185076-krmaeo">
+      <ObjectId>40</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="186061">
+      <ObjectId>31</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="186061Exam">
+      <ObjectId>37</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="186061Exam2019s">
+      <ObjectId>45</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="3123323">
+      <ObjectId>34</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="8" parent="1" name="&lt;andvas2&gt;-&lt;andvas2_exam01&gt;">
+      <ObjectId>7</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="9" parent="1" name="&lt;uniid&gt;_somename">
+      <ObjectId>66</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="10" parent="1" name="Hunters">
+      <ObjectId>109</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="11" parent="1" name="QueryFactory">
+      <ObjectId>318</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="12" parent="1" name="SilSil_TicTacToe">
+      <ObjectId>257</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="13" parent="1" name="SilSil_TicTacToeDemo">
+      <ObjectId>256</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="14" parent="1" name="VaherExam">
+      <ObjectId>324</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="15" parent="1" name="a_razordemo">
+      <ObjectId>243</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="16" parent="1" name="aaaTestStuff">
+      <ObjectId>268</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="17" parent="1" name="ahabdu_ahmed">
+      <ObjectId>69</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="18" parent="1" name="ahabdu_battleship">
+      <ObjectId>130</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="19" parent="1" name="ahabdu_tictactoe">
+      <ObjectId>244</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="20" parent="1" name="ahkaro_ahkarodb">
+      <ObjectId>58</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="21" parent="1" name="ahkaro_dbdemo">
+      <ObjectId>97</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="22" parent="1" name="ahto.karolin_exam2020">
+      <ObjectId>325</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="23" parent="1" name="akaver-sportmap">
+      <ObjectId>11</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="24" parent="1" name="akaver_tictactoe2">
+      <ObjectId>227</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="25" parent="1" name="akcost_MyDemoDB">
+      <ObjectId>211</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="26" parent="1" name="akcost_battleship_db">
+      <ObjectId>347</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="27" parent="1" name="akolom_battleship_db">
+      <ObjectId>206</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="28" parent="1" name="alekpa_battleship">
+      <ObjectId>122</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="29" parent="1" name="alekpa_battleship_demo_db">
+      <ObjectId>219</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="30" parent="1" name="alekpa_rezerdemo">
+      <ObjectId>129</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="31" parent="1" name="alekpa_tictaktoeDemo">
+      <ObjectId>301</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="32" parent="1" name="allerk.db">
+      <ObjectId>187</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="33" parent="1" name="allerk_battleship_db">
+      <ObjectId>134</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="34" parent="1" name="alpha.akaver.com">
+      <ObjectId>346</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="35" parent="1" name="alruba_AlrubaBase">
+      <ObjectId>82</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="36" parent="1" name="alsail_csharpDB">
+      <ObjectId>70</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="37" parent="1" name="alzahh_casino4">
+      <ObjectId>14</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="38" parent="1" name="anaspa_dbBattleShip">
+      <ObjectId>321</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="39" parent="1" name="anaspa_razordemo">
+      <ObjectId>246</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="40" parent="1" name="anastasia.pavlova_dbdemo">
+      <ObjectId>151</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="41" parent="1" name="anastasia.pavlova_tictactoe">
+      <ObjectId>311</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="42" parent="1" name="andres.akolom_test">
+      <ObjectId>163</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="43" parent="1" name="andres.aporman_battleship_db">
+      <ObjectId>247</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="44" parent="1" name="andres.jugeim_battleship_db">
+      <ObjectId>145</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="45" parent="1" name="andres.kaalte_tictactoe">
+      <ObjectId>297</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="46" parent="1" name="andres.kaver_ExamPractice1">
+      <ObjectId>303</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="47" parent="1" name="andres.kaver_battleship_db">
+      <ObjectId>315</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="48" parent="1" name="andres.kaver_dbdemo">
+      <ObjectId>59</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="49" parent="1" name="andres.kaver_exam2020">
+      <ObjectId>281</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="50" parent="1" name="andres.kaver_razondemo">
+      <ObjectId>237</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="51" parent="1" name="andres.kaver_razordemo">
+      <ObjectId>93</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="52" parent="1" name="andres.kaver_tictactoe">
+      <ObjectId>108</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="53" parent="1" name="andres.kaver_tictactoe99">
+      <ObjectId>254</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="54" parent="1" name="anluikExam2019s">
+      <ObjectId>35</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="55" parent="1" name="anluik_DistProj2019">
+      <ObjectId>20</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="56" parent="1" name="anluur_movie_theater">
+      <ObjectId>13</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="57" parent="1" name="anpa_tictactoe">
+      <ObjectId>313</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="58" parent="1" name="anton.nikiforov_dbdemo">
+      <ObjectId>92</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="59" parent="1" name="aporman_battleship_db">
+      <ObjectId>248</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="60" parent="1" name="arguzo_quizapp">
+      <ObjectId>221</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="61" parent="1" name="aroosl_battleship">
+      <ObjectId>218</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="62" parent="1" name="aroosl_battleships">
+      <ObjectId>208</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="63" parent="1" name="aroosl_demodb">
+      <ObjectId>84</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="64" parent="1" name="arpolo_fooddelivery">
+      <ObjectId>220</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="65" parent="1" name="arrohi_Battleship_db">
+      <ObjectId>251</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="66" parent="1" name="arrohi_razordemo">
+      <ObjectId>340</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="67" parent="1" name="arsieg_battleship">
+      <ObjectId>120</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="68" parent="1" name="arsieg_dbdemo">
+      <ObjectId>85</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="69" parent="1" name="arsieg_exam">
+      <ObjectId>337</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="70" parent="1" name="arsieg_razordemo">
+      <ObjectId>127</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="71" parent="1" name="arsieg_receipe">
+      <ObjectId>280</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="72" parent="1" name="arsieg_tictactoe">
+      <ObjectId>226</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="73" parent="1" name="arsieg_tictactoe2">
+      <ObjectId>232</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="74" parent="1" name="artjsa_battleship_v1">
+      <ObjectId>192</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="75" parent="1" name="asdasd_battleship_db">
+      <ObjectId>179</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="76" parent="1" name="aslaan_battleship_db">
+      <ObjectId>103</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="77" parent="1" name="aslaan_razorDemo">
+      <ObjectId>94</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="78" parent="1" name="astepa_exam">
+      <ObjectId>43</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="79" parent="1" name="astepa_project">
+      <ObjectId>21</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="80" parent="1" name="betterreddit_179043">
+      <ObjectId>50</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="81" parent="1" name="capetr_DbDemo">
+      <ObjectId>197</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="82" parent="1" name="csilla_battleship_db">
+      <ObjectId>202</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="83" parent="1" name="dasiim-shop">
+      <ObjectId>12</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="84" parent="1" name="dehimu_battleship">
+      <ObjectId>188</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="85" parent="1" name="dekrus_battleship_db">
+      <ObjectId>209</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="86" parent="1" name="demo_demo_demo">
+      <ObjectId>36</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="87" parent="1" name="ditarr_Battleship">
+      <ObjectId>300</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="88" parent="1" name="ditarr_DemoDB">
+      <ObjectId>161</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="89" parent="1" name="divahe_Database">
+      <ObjectId>110</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="90" parent="1" name="edm_razerdemo_db">
+      <ObjectId>258</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="91" parent="1" name="edmihh_battleship_db">
+      <ObjectId>168</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="92" parent="1" name="egert.rumjantsev_battleship">
+      <ObjectId>76</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="93" parent="1" name="egert.rumjantsev_battleship01">
+      <ObjectId>307</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="94" parent="1" name="egert.rumjantsev_battleship02">
+      <ObjectId>310</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="95" parent="1" name="elrand_jou">
+      <ObjectId>67</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="96" parent="1" name="ensiss-test">
+      <ObjectId>184</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="97" parent="1" name="ensiss_battleship">
+      <ObjectId>191</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="98" parent="1" name="ensiss_dbSchoolDemo">
+      <ObjectId>73</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="99" parent="1" name="ensiss_razordemo">
+      <ObjectId>141</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="100" parent="1" name="erik.illaste_battleship_db">
+      <ObjectId>272</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="101" parent="1" name="erik.illaste_dbdemo">
+      <ObjectId>269</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="102" parent="1" name="erik.illaste_hwdbdemo1">
+      <ObjectId>290</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="103" parent="1" name="erik.illaste_razordemo">
+      <ObjectId>271</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="104" parent="1" name="erik.illaste_tictactoe">
+      <ObjectId>277</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="105" parent="1" name="erle.maido_battleship_db">
+      <ObjectId>180</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="106" parent="1" name="erle.maido_examPractice">
+      <ObjectId>289</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="107" parent="1" name="erle.maido_tictactoe">
+      <ObjectId>229</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="108" parent="1" name="gecujb_DbDemo">
+      <ObjectId>234</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="109" parent="1" name="gert.kuldma_DB">
+      <ObjectId>198</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="110" parent="1" name="gevain_battleship">
+      <ObjectId>177</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="111" parent="1" name="gevain_battleshipdb">
+      <ObjectId>330</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="112" parent="1" name="glinde_battleship_db">
+      <ObjectId>185</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="113" parent="1" name="glinde_dbdemo">
+      <ObjectId>87</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="114" parent="1" name="glinde_tictactoe">
+      <ObjectId>249</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="115" parent="1" name="grtamm_icd0008_2020f">
+      <ObjectId>102</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="116" parent="1" name="haojav_battleship_db">
+      <ObjectId>148</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="117" parent="1" name="hejaan_battleship_db">
+      <ObjectId>136</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="118" parent="1" name="hejaan_dbdemo">
+      <ObjectId>117</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="119" parent="1" name="hejaan_exampractice2020">
+      <ObjectId>317</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="120" parent="1" name="hejaan_razordemo">
+      <ObjectId>132</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="121" parent="1" name="hejaan_tictactoe">
+      <ObjectId>236</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="122" parent="1" name="henry.veetamm_185486">
+      <ObjectId>175</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="123" parent="1" name="hlepik_battleship">
+      <ObjectId>170</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="124" parent="1" name="hlepik_eksam">
+      <ObjectId>333</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="125" parent="1" name="hlepik_eksam_akaver">
+      <ObjectId>331</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="126" parent="1" name="hlepik_eksamiproov">
+      <ObjectId>284</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="127" parent="1" name="hlepik_tictactoe">
+      <ObjectId>252</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="128" parent="1" name="igkrup_battleship">
+      <ObjectId>164</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="129" parent="1" name="igkrup_btt">
+      <ObjectId>139</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="130" parent="1" name="igkrup_demo2">
+      <ObjectId>65</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="131" parent="1" name="igkrup_testdb">
+      <ObjectId>131</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="132" parent="1" name="iivano_dbdemo">
+      <ObjectId>88</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="133" parent="1" name="iivano_razordbdemo">
+      <ObjectId>137</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="134" parent="1" name="inkann_test999">
+      <ObjectId>215</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="135" parent="1" name="ivmaeo_battleships">
+      <ObjectId>77</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="136" parent="1" name="jajevo_battleship">
+      <ObjectId>279</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="137" parent="1" name="jajevo_test01">
+      <ObjectId>305</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="138" parent="1" name="jakaar_battleship_db">
+      <ObjectId>143</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="139" parent="1" name="jametl_battleshipdb">
+      <ObjectId>160</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="140" parent="1" name="jametl_dbdemo">
+      <ObjectId>113</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="141" parent="1" name="jefenk_battleShips">
+      <ObjectId>201</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="142" parent="1" name="jefenk_dbdemo">
+      <ObjectId>169</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="143" parent="1" name="jesori_dist_2019s">
+      <ObjectId>19</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="144" parent="1" name="jjurtsen_battleship_db">
+      <ObjectId>267</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="145" parent="1" name="jjurtsen_razordemo">
+      <ObjectId>262</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="146" parent="1" name="jmurut_dbdemo">
+      <ObjectId>124</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="147" parent="1" name="joan.kaev_dbdemo">
+      <ObjectId>86</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="148" parent="1" name="joan.kaev_dbdemo1">
+      <ObjectId>99</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="149" parent="1" name="jugavr_battleship">
+      <ObjectId>196</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="150" parent="1" name="jugeim_battleship_db">
+      <ObjectId>144</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="151" parent="1" name="jugeim_battleships_db">
+      <ObjectId>203</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="152" parent="1" name="kaalte_BattleshipDB">
+      <ObjectId>90</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="153" parent="1" name="kaalte_Exam01">
+      <ObjectId>343</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="154" parent="1" name="kaalte_SchoolGrading">
+      <ObjectId>71</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="155" parent="1" name="kaande-exam-quiz-Ms-Sql">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="156" parent="1" name="kaande_CarService">
+      <ObjectId>304</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="157" parent="1" name="kaande_battle">
+      <ObjectId>240</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="158" parent="1" name="kabank_exam">
+      <ObjectId>25</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="159" parent="1" name="kabank_rental">
+      <ObjectId>55</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="160" parent="1" name="kabank_test">
+      <ObjectId>29</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="161" parent="1" name="kadjog_battleship_DB">
+      <ObjectId>152</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="162" parent="1" name="kadjog_dbdemo">
+      <ObjectId>158</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="163" parent="1" name="kajoul_kajoulDb">
+      <ObjectId>81</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="164" parent="1" name="kapohg_battleships">
+      <ObjectId>212</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="165" parent="1" name="kapohg_dbdemo">
+      <ObjectId>80</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="166" parent="1" name="kapohg_demo2">
+      <ObjectId>133</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="167" parent="1" name="kapohg_razordemo">
+      <ObjectId>126</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="168" parent="1" name="kapohg_tictactoe">
+      <ObjectId>255</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="169" parent="1" name="kapohg_tictactoetry2">
+      <ObjectId>276</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="170" parent="1" name="kapohg_tictactoetry3">
+      <ObjectId>278</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="171" parent="1" name="karall_ExamPractice">
+      <ObjectId>322</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="172" parent="1" name="karall_battleshipsDb">
+      <ObjectId>156</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="173" parent="1" name="karall_karallDemoDatabase">
+      <ObjectId>72</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="174" parent="1" name="karall_karallrazordemo">
+      <ObjectId>98</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="175" parent="1" name="karall_tictact0e">
+      <ObjectId>253</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="176" parent="1" name="kausui_battleship_db">
+      <ObjectId>190</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="177" parent="1" name="kesaap_test">
+      <ObjectId>213</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="178" parent="1" name="kesaap_test_battleship">
+      <ObjectId>288</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="179" parent="1" name="kesaar_dist_2019s">
+      <ObjectId>39</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="180" parent="1" name="kiloss_battleship">
+      <ObjectId>207</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="181" parent="1" name="kiloss_demo_database">
+      <ObjectId>79</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="182" parent="1" name="kkesku_battleship">
+      <ObjectId>319</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="183" parent="1" name="kkivik_DbDemo">
+      <ObjectId>68</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="184" parent="1" name="kkivik_dba">
+      <ObjectId>339</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="185" parent="1" name="klaas_med">
+      <ObjectId>46</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="186" parent="1" name="klinds-dist-01">
+      <ObjectId>10</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="187" parent="1" name="klinds-dist-exam-01">
+      <ObjectId>32</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="188" parent="1" name="krfrei_battle">
+      <ObjectId>286</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="189" parent="1" name="krkatt_battleship_db">
+      <ObjectId>204</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="190" parent="1" name="krmaeo">
+      <ObjectId>41</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="191" parent="1" name="krmill_battleships">
+      <ObjectId>178</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="192" parent="1" name="krpill-db101">
+      <ObjectId>24</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="193" parent="1" name="ksikka_battleshipsdb">
+      <ObjectId>96</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="194" parent="1" name="lheinl_battleship">
+      <ObjectId>150</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="195" parent="1" name="libots_exam">
+      <ObjectId>56</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="196" parent="1" name="libots_project">
+      <ObjectId>53</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="197" parent="1" name="lipals-creambase">
+      <ObjectId>18</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="198" parent="1" name="livana_battelShip">
+      <ObjectId>146</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="199" parent="1" name="livana_battleshipDb">
+      <ObjectId>140</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="200" parent="1" name="livana_dbdemo">
+      <ObjectId>121</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="201" parent="1" name="livana_razordemo">
+      <ObjectId>334</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="202" parent="1" name="mabode_battleship">
+      <ObjectId>138</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="203" parent="1" name="magazi_battleship_db">
+      <ObjectId>210</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="204" parent="1" name="magord_battleships">
+      <ObjectId>147</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="205" parent="1" name="magord_dbDemo&#xd;&#xa;                    MultipleActiveResultSets=true">
+      <ObjectId>60</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="206" parent="1" name="magord_exam2020f">
+      <ObjectId>295</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <Grants>295|database||0|view any column encryption key definition|G
+295|database||0|view any column master key definition|G
+295|database||1|connect|G
+</Grants>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>347.44197/4775C911-DCDB-49FA-88CA-D913E012AE02@780f81aed285</Fingerprint>
+    </database>
+    <database id="207" parent="1" name="magord_exampractice2020">
+      <ObjectId>282</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="208" parent="1" name="magord_razordemo">
+      <ObjectId>95</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="209" parent="1" name="magord_tictactoe">
+      <ObjectId>224</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="210" parent="1" name="mahoop_Battleship">
+      <ObjectId>320</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="211" parent="1" name="makaam_battleship_db">
+      <ObjectId>153</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="212" parent="1" name="makaig-pizza">
+      <ObjectId>15</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="213" parent="1" name="makost_battleship_db">
+      <ObjectId>200</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="214" parent="1" name="makost_dbdemo">
+      <ObjectId>62</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="215" parent="1" name="makost_razordemo">
+      <ObjectId>105</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="216" parent="1" name="masipi-db">
+      <ObjectId>33</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="217" parent="1" name="masipi_db">
+      <ObjectId>22</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="218" parent="1" name="masipi_quiz">
+      <ObjectId>42</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="219" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="220" parent="1" name="matkiv_battleship">
+      <ObjectId>193</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="221" parent="1" name="mavozd_battleships">
+      <ObjectId>75</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="222" parent="1" name="mavozd_exam2020">
+      <ObjectId>293</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <Grants>293|database||0|view any column encryption key definition|G
+293|database||0|view any column master key definition|G
+293|database||1|connect|G
+</Grants>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>347.44197/4775C911-DCDB-49FA-88CA-D913E012AE02@780f81aed285</Fingerprint>
+    </database>
+    <database id="223" parent="1" name="meeenm_gifter2019">
+      <ObjectId>23</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="224" parent="1" name="mheinmaa_testdb">
+      <ObjectId>345</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="225" parent="1" name="mihkel.heinmaa_BattleshipTestingDb">
+      <ObjectId>265</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="226" parent="1" name="mihkel.heinmaa_ExamDemoDb">
+      <ObjectId>162</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="227" parent="1" name="mihkel.heinmaa_RazorDemo">
+      <ObjectId>112</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="228" parent="1" name="mihkel.heinmaa_dbdemo">
+      <ObjectId>74</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="229" parent="1" name="mihkuz">
+      <ObjectId>157</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="230" parent="1" name="mihkuz_battleship">
+      <ObjectId>186</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="231" parent="1" name="miriik_MRiikBattleShipDb">
+      <ObjectId>195</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="232" parent="1" name="mmetsa_battleship">
+      <ObjectId>91</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="233" parent="1" name="mmetsa_razordemo">
+      <ObjectId>292</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="234" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="235" parent="1" name="mr_test">
+      <ObjectId>159</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="236" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="237" parent="1" name="niputy_battleship_db">
+      <ObjectId>306</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="238" parent="1" name="ottkoss_razordemo">
+      <ObjectId>101</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="239" parent="1" name="parelv_RazorTesting">
+      <ObjectId>332</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="240" parent="1" name="parelv_TicTacToe">
+      <ObjectId>299</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="241" parent="1" name="parelv_battleShip_Final">
+      <ObjectId>328</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="242" parent="1" name="parelv_icd0008_battleship">
+      <ObjectId>266</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="243" parent="1" name="parelv_justSomeTests">
+      <ObjectId>327</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="244" parent="1" name="parelv_razorPracticeFix">
+      <ObjectId>260</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="245" parent="1" name="parelv_razorPracticeFix2">
+      <ObjectId>261</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="246" parent="1" name="parelv_razordemo">
+      <ObjectId>259</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="247" parent="1" name="prmeln_exam">
+      <ObjectId>5</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="248" parent="1" name="quick-test">
+      <ObjectId>183</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="249" parent="1" name="quick_test">
+      <ObjectId>182</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="250" parent="1" name="quizapp_179043">
+      <ObjectId>54</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="251" parent="1" name="ragnar_battleships">
+      <ObjectId>116</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="252" parent="1" name="rahelk_battleship_db">
+      <ObjectId>107</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="253" parent="1" name="rahelk_battleshipdb">
+      <ObjectId>165</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="254" parent="1" name="raido.randoja_battleships">
+      <ObjectId>225</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="255" parent="1" name="raido.randoja_dbdemo">
+      <ObjectId>142</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="256" parent="1" name="raido.randoja_exampractice2020">
+      <ObjectId>283</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="257" parent="1" name="raido.randoja_razordemo">
+      <ObjectId>222</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="258" parent="1" name="raido.randoja_tictactoe">
+      <ObjectId>233</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="259" parent="1" name="raido.randoja_tictactoe99">
+      <ObjectId>263</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="260" parent="1" name="railikatamm_battleship_db">
+      <ObjectId>250</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="261" parent="1" name="rain.battleship">
+      <ObjectId>341</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="262" parent="1" name="rajans_battleship">
+      <ObjectId>106</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="263" parent="1" name="rajoha_battleships">
+      <ObjectId>114</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="264" parent="1" name="ramaem_battleship_db">
+      <ObjectId>166</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="265" parent="1" name="raskil_BsDb">
+      <ObjectId>189</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="266" parent="1" name="raskil_db">
+      <ObjectId>128</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="267" parent="1" name="raskil_razorDb">
+      <ObjectId>242</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="268" parent="1" name="raskil_razorDemo">
+      <ObjectId>241</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="269" parent="1" name="raskil_tictactoe">
+      <ObjectId>245</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="270" parent="1" name="raunotali-Demo2019s">
+      <ObjectId>48</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="271" parent="1" name="raunotali-HW2">
+      <ObjectId>49</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="272" parent="1" name="raunotali1_demo2019s">
+      <ObjectId>47</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="273" parent="1" name="ravali_icd0008">
+      <ObjectId>83</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="274" parent="1" name="ravali_icd0008_battleships">
+      <ObjectId>111</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="275" parent="1" name="ravali_icd0008_mypizza">
+      <ObjectId>336</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="276" parent="1" name="regina.saar_tictactoe">
+      <ObjectId>228</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="277" parent="1" name="relahk_battleships">
+      <ObjectId>154</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="278" parent="1" name="remuru">
+      <ObjectId>329</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="279" parent="1" name="rikald.battleships">
+      <ObjectId>174</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="280" parent="1" name="rikald_databasedemo">
+      <ObjectId>63</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="281" parent="1" name="rikald_exam2020">
+      <ObjectId>335</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <Grants>335|database||0|view any column encryption key definition|G
+335|database||0|view any column master key definition|G
+335|database||1|connect|G
+</Grants>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>347.44197/2FC4D1F4-7BC0-40B7-877A-5672F9E30E11@780f81aed285</Fingerprint>
+    </database>
+    <database id="282" parent="1" name="risood-project">
+      <ObjectId>16</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="283" parent="1" name="rokaib_C#_battleship_Db">
+      <ObjectId>344</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="284" parent="1" name="rolaur_e4wQ_razordemo">
+      <ObjectId>296</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="285" parent="1" name="rolaur_logicaldbname">
+      <ObjectId>89</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="286" parent="1" name="rolaur_logicaldbname_problem">
+      <ObjectId>115</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="287" parent="1" name="rolaur_razordemo_one">
+      <ObjectId>123</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="288" parent="1" name="rolaur_tictactoe_one">
+      <ObjectId>294</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="289" parent="1" name="rotoni_exam">
+      <ObjectId>17</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <Grants>17|database||0|view any column encryption key definition|G
+17|database||0|view any column master key definition|G
+17|database||1|connect|G
+</Grants>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>347.44197/2FC4D1F4-7BC0-40B7-877A-5672F9E30E11@780f81aed285</Fingerprint>
+    </database>
+    <database id="290" parent="1" name="rvarbl_testdb">
+      <ObjectId>78</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="291" parent="1" name="rvarblbattleshipsdb">
+      <ObjectId>125</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="292" parent="1" name="rvarblrazordemodb">
+      <ObjectId>264</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="293" parent="1" name="sasapp_project">
+      <ObjectId>30</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="294" parent="1" name="senovi_battleship_db">
+      <ObjectId>172</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="295" parent="1" name="siim.noomen_battleship_db">
+      <ObjectId>285</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="296" parent="1" name="siimkilki_battleship_db">
+      <ObjectId>181</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="297" parent="1" name="siinkilki_DbDemo">
+      <ObjectId>100</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="298" parent="1" name="siliin_battleship">
+      <ObjectId>199</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="299" parent="1" name="siliin_exampractice">
+      <ObjectId>287</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="300" parent="1" name="siliin_tictactoedemo">
+      <ObjectId>239</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="301" parent="1" name="silsil_abit">
+      <ObjectId>338</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="302" parent="1" name="silsil_battleshipDB">
+      <ObjectId>314</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="303" parent="1" name="silsil_exApp">
+      <ObjectId>194</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <Grants>194|database||0|view any column encryption key definition|G
+194|database||0|view any column master key definition|G
+194|database||1|connect|G
+</Grants>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>194.44197/190B120C-C753-43D3-BF19-7E41FE24D3A7@780f81aed285</Fingerprint>
+    </database>
+    <database id="304" parent="1" name="simang_battleship">
+      <ObjectId>270</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="305" parent="1" name="simang_exam2020">
+      <ObjectId>326</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <Grants>326|database||0|view any column encryption key definition|G
+326|database||0|view any column master key definition|G
+326|database||1|connect|G
+</Grants>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>347.44197/2FC4D1F4-7BC0-40B7-877A-5672F9E30E11@780f81aed285</Fingerprint>
+    </database>
+    <database id="306" parent="1" name="simang_siirimangus&#xa;                    MultipleActiveResultSets=true">
+      <ObjectId>61</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="307" parent="1" name="simell_exam">
+      <ObjectId>52</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="308" parent="1" name="simell_projectV2">
+      <ObjectId>38</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="309" parent="1" name="simots_battleshipDb">
+      <ObjectId>298</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="310" parent="1" name="simots_dbdemo">
+      <ObjectId>118</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="311" parent="1" name="simots_tictactoe">
+      <ObjectId>155</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="312" parent="1" name="sisavi-sisavidb">
+      <ObjectId>28</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="313" parent="1" name="sisaviExam2019s">
+      <ObjectId>51</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="314" parent="1" name="stkale.stkale_razorpagez">
+      <ObjectId>135</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="315" parent="1" name="stkale_test">
+      <ObjectId>104</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="316" parent="1" name="taansp_quiz_exam">
+      <ObjectId>8</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="317" parent="1" name="taavi.nuum_exam2020">
+      <ObjectId>291</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="318" parent="1" name="taavinuum_exam2020">
+      <ObjectId>312</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <Grants>312|database||0|view any column encryption key definition|G
+312|database||0|view any column master key definition|G
+312|database||1|connect|G
+</Grants>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>347.44197/2FC4D1F4-7BC0-40B7-877A-5672F9E30E11@780f81aed285</Fingerprint>
+    </database>
+    <database id="319" parent="1" name="taavinuum_tictactoe">
+      <ObjectId>231</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="320" parent="1" name="tanuum_battleship_db">
+      <ObjectId>205</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="321" parent="1" name="tanuum_dbdemo">
+      <ObjectId>57</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="322" parent="1" name="tanuum_razordemo">
+      <ObjectId>119</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="323" parent="1" name="tanuum_tictactoe">
+      <ObjectId>230</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="324" parent="1" name="tatari_hyper">
+      <ObjectId>27</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="325" parent="1" name="tekald-_1-ma-ei-j2ta-enam-paroole-proovit66de-confi">
+      <ObjectId>273</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="326" parent="1" name="tekald-_2-ma-hakkan-normaalselt-gitti-kasutama">
+      <ObjectId>274</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="327" parent="1" name="tekald-_3-ma-6pin-netcore-korralikult-selgeks">
+      <ObjectId>275</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="328" parent="1" name="tekald-assessment">
+      <ObjectId>235</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="329" parent="1" name="tekald-bacchus">
+      <ObjectId>217</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="330" parent="1" name="tekald-beapp">
+      <ObjectId>214</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="331" parent="1" name="tekald-skincare-app">
+      <ObjectId>9</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="332" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="333" parent="1" name="test">
+      <ObjectId>44</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="334" parent="1" name="trmalv_battleship">
+      <ObjectId>308</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="335" parent="1" name="trmalv_battleshipDb">
+      <ObjectId>149</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="336" parent="1" name="trmalv_battleship_test">
+      <ObjectId>316</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="337" parent="1" name="trmalv_razorDemo">
+      <ObjectId>342</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="338" parent="1" name="trmalv_test123">
+      <ObjectId>309</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="339" parent="1" name="ttinit_battleship">
+      <ObjectId>223</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="340" parent="1" name="ttinit_demodb">
+      <ObjectId>64</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="341" parent="1" name="vakaro_Database">
+      <ObjectId>176</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="342" parent="1" name="very_test_db">
+      <ObjectId>26</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="343" parent="1" name="villem.madisson_BattleshipI">
+      <ObjectId>173</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="344" parent="1" name="villem.madisson_Exam1">
+      <ObjectId>238</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="345" parent="1" name="vturts_battleship_bd">
+      <ObjectId>171</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="346" parent="1" name="wash">
+      <ObjectId>216</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="347" parent="1" name="yuderb_battleship">
+      <ObjectId>302</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="348" parent="1" name="yuderb_battleshipdb">
+      <ObjectId>167</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <login id="349" parent="1" name="sa">
+      <ObjectId>1</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="350" parent="1" name="public">
+      <ObjectId>2</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="351" parent="1" name="sysadmin">
+      <ObjectId>3</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="352" parent="1" name="securityadmin">
+      <ObjectId>4</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="353" parent="1" name="serveradmin">
+      <ObjectId>5</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="354" parent="1" name="setupadmin">
+      <ObjectId>6</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="355" parent="1" name="processadmin">
+      <ObjectId>7</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="356" parent="1" name="diskadmin">
+      <ObjectId>8</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="357" parent="1" name="dbcreator">
+      <ObjectId>9</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="358" parent="1" name="bulkadmin">
+      <ObjectId>10</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="359" parent="1" name="student">
+      <ObjectId>262</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <schema id="360" parent="303" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="361" parent="303" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="362" parent="303" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="363" parent="303" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="364" parent="303" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="365" parent="303" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="366" parent="303" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="367" parent="303" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="368" parent="303" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="369" parent="303" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="370" parent="303" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2021-01-03.02:47:37.240</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <schema id="371" parent="303" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="372" parent="303" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <role id="373" parent="303" name="public">
+      <ObjectId>0</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="374" parent="303" name="dbo">
+      <ObjectId>1</ObjectId>
+      <DefaultSchema>dbo</DefaultSchema>
+      <AuthType>instance</AuthType>
+    </role>
+    <role id="375" parent="303" name="guest">
+      <ObjectId>2</ObjectId>
+      <DefaultSchema>guest</DefaultSchema>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="376" parent="303" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="377" parent="303" name="sys">
+      <ObjectId>4</ObjectId>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="378" parent="303" name="db_owner">
+      <ObjectId>16384</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="379" parent="303" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="380" parent="303" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="381" parent="303" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="382" parent="303" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="383" parent="303" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="384" parent="303" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="385" parent="303" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="386" parent="303" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <table id="387" parent="370" name="AnswerChoices">
+      <ObjectId>1013578649</ObjectId>
+      <Outdated>1</Outdated>
+      <CreatedTimestamp>2021-01-03.02:45:46.943</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:47.160</ModifiedTimestamp>
+    </table>
+    <table id="388" parent="370" name="Answers">
+      <ObjectId>1109578991</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:47.087</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:47.240</ModifiedTimestamp>
+    </table>
+    <table id="389" parent="370" name="Categories">
+      <ObjectId>917578307</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:46.693</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.693</ModifiedTimestamp>
+    </table>
+    <table id="390" parent="370" name="Games">
+      <ObjectId>949578421</ObjectId>
+      <Outdated>1</Outdated>
+      <CreatedTimestamp>2021-01-03.02:45:46.767</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.947</ModifiedTimestamp>
+    </table>
+    <table id="391" parent="370" name="Questions">
+      <ObjectId>1061578820</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:47.007</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:47.320</ModifiedTimestamp>
+    </table>
+    <table id="392" parent="370" name="Quizzes">
+      <ObjectId>981578535</ObjectId>
+      <Outdated>1</Outdated>
+      <CreatedTimestamp>2021-01-03.02:45:46.847</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:47.010</ModifiedTimestamp>
+    </table>
+    <table id="393" parent="370" name="__EFMigrationsHistory">
+      <ObjectId>885578193</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:46.287</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.287</ModifiedTimestamp>
+    </table>
+    <column id="394" parent="387" name="AnswerChoiceId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="395" parent="387" name="GameId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="396" parent="387" name="QuestionId">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="397" parent="387" name="AnswerId">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="398" parent="387" name="PK_AnswerChoices">
+      <Position>1</Position>
+      <ColNames>AnswerChoiceId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="399" parent="387" name="IX_AnswerChoices_GameId">
+      <Position>2</Position>
+      <ColNames>GameId</ColNames>
+    </index>
+    <key id="400" parent="387" name="PK_AnswerChoices">
+      <ObjectId>1029578706</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:46.943</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.943</ModifiedTimestamp>
+      <ColNames>AnswerChoiceId</ColNames>
+      <UnderlyingIndexName>PK_AnswerChoices</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="401" parent="387" name="FK_AnswerChoices_Games_GameId">
+      <ObjectId>1045578763</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:46.943</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.943</ModifiedTimestamp>
+      <ColNames>GameId</ColNames>
+      <RefTableId>949578421</RefTableId>
+      <RefTableName>Games</RefTableName>
+      <RefKeyName>PK_Games</RefKeyName>
+      <RefColNames>GameId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="402" parent="388" name="AnswerId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="403" parent="388" name="QuestionId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="404" parent="388" name="AnswerString">
+      <Position>3</Position>
+      <DataType>nvarchar(256 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="405" parent="388" name="CorrectAnswer">
+      <Position>4</Position>
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="406" parent="388" name="PK_Answers">
+      <Position>1</Position>
+      <ColNames>AnswerId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="407" parent="388" name="IX_Answers_QuestionId">
+      <Position>2</Position>
+      <ColNames>QuestionId</ColNames>
+    </index>
+    <key id="408" parent="388" name="PK_Answers">
+      <ObjectId>1125579048</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:47.087</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:47.087</ModifiedTimestamp>
+      <ColNames>AnswerId</ColNames>
+      <UnderlyingIndexName>PK_Answers</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="409" parent="388" name="FK_Answers_Questions_QuestionId">
+      <ObjectId>1141579105</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:47.090</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:47.090</ModifiedTimestamp>
+      <ColNames>QuestionId</ColNames>
+      <RefTableId>1061578820</RefTableId>
+      <RefTableName>Questions</RefTableName>
+      <RefKeyName>PK_Questions</RefKeyName>
+      <RefColNames>QuestionId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="410" parent="389" name="CategoryId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="411" parent="389" name="CategoryString">
+      <Position>2</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="412" parent="389" name="PK_Categories">
+      <Position>1</Position>
+      <ColNames>CategoryId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="413" parent="389" name="PK_Categories">
+      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:46.697</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.697</ModifiedTimestamp>
+      <ColNames>CategoryId</ColNames>
+      <UnderlyingIndexName>PK_Categories</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="414" parent="390" name="GameId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="415" parent="390" name="QuizId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="416" parent="390" name="Points">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="417" parent="390" name="PlayerName">
+      <Position>4</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="418" parent="390" name="DateCreated">
+      <Position>5</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="419" parent="390" name="PK_Games">
+      <Position>1</Position>
+      <ColNames>GameId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="420" parent="390" name="PK_Games">
+      <ObjectId>965578478</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:46.767</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.767</ModifiedTimestamp>
+      <ColNames>GameId</ColNames>
+      <UnderlyingIndexName>PK_Games</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="421" parent="391" name="QuestionId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="422" parent="391" name="QuizId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="423" parent="391" name="QuestionString">
+      <Position>3</Position>
+      <DataType>nvarchar(512 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="424" parent="391" name="PK_Questions">
+      <Position>1</Position>
+      <ColNames>QuestionId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="425" parent="391" name="IX_Questions_QuizId">
+      <Position>2</Position>
+      <ColNames>QuizId</ColNames>
+    </index>
+    <key id="426" parent="391" name="PK_Questions">
+      <ObjectId>1077578877</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:47.007</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:47.007</ModifiedTimestamp>
+      <ColNames>QuestionId</ColNames>
+      <UnderlyingIndexName>PK_Questions</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="427" parent="391" name="FK_Questions_Quizzes_QuizId">
+      <ObjectId>1093578934</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:47.010</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:47.010</ModifiedTimestamp>
+      <ColNames>QuizId</ColNames>
+      <RefTableId>981578535</RefTableId>
+      <RefTableName>Quizzes</RefTableName>
+      <RefKeyName>PK_Quizzes</RefKeyName>
+      <RefColNames>QuizId</RefColNames>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="428" parent="392" name="QuizId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="429" parent="392" name="CategoryId">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="430" parent="392" name="Description">
+      <Position>3</Position>
+      <DataType>nvarchar(1024 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="431" parent="392" name="DateCreated">
+      <Position>4</Position>
+      <DataType>nvarchar(max)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="432" parent="392" name="QuizName">
+      <Position>5</Position>
+      <DataType>nvarchar(128 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="433" parent="392" name="CreatorName">
+      <Position>6</Position>
+      <DataType>nvarchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="434" parent="392" name="PK_Quizzes">
+      <Position>1</Position>
+      <ColNames>QuizId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="435" parent="392" name="PK_Quizzes">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:46.850</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.850</ModifiedTimestamp>
+      <ColNames>QuizId</ColNames>
+      <UnderlyingIndexName>PK_Quizzes</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="436" parent="393" name="MigrationId">
+      <Position>1</Position>
+      <DataType>nvarchar(150 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="437" parent="393" name="ProductVersion">
+      <Position>2</Position>
+      <DataType>nvarchar(32 char)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="438" parent="393" name="PK___EFMigrationsHistory">
+      <Position>1</Position>
+      <ColNames>MigrationId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="439" parent="393" name="PK___EFMigrationsHistory">
+      <ObjectId>901578250</ObjectId>
+      <CreatedTimestamp>2021-01-03.02:45:46.293</CreatedTimestamp>
+      <ModifiedTimestamp>2021-01-03.02:45:46.293</ModifiedTimestamp>
+      <ColNames>MigrationId</ColNames>
+      <UnderlyingIndexName>PK___EFMigrationsHistory</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

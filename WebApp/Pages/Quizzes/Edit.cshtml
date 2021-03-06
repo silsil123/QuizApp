@@ -1,0 +1,46 @@
+@page
+@model QuizApp.Pages_Quizzes.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>@Model.Quiz.QuizName</h1>
+
+<h4>Edit</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Quiz.QuizId" />
+            <div class="form-group">
+                <label asp-for="Quiz.QuizName" class="control-label">Quiz name</label>
+                <input asp-for="Quiz.QuizName" class="form-control" />
+                <span asp-validation-for="Quiz.QuizName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quiz.CreatorName" class="control-label">Creator Name</label>
+                <input asp-for="Quiz.CreatorName" class="form-control" />
+                <span asp-validation-for="Quiz.CreatorName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Quiz.Description" class="control-label">Description</label>
+                <textarea asp-for="Quiz.Description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <span asp-validation-for="Quiz.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="../Index">Back to List</a> |
+    <a asp-page="./Delete" asp-route-id="@Model.Quiz.QuizId">Delete</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

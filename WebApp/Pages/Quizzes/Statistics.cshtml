@@ -1,0 +1,69 @@
+﻿@page
+@model QuizApp.Pages.Quizzes.Statistics
+
+@functions
+{
+    int AnswerCount(int aId)
+    {
+        var count = 0;
+        foreach (var answer in Model.Choices)
+        {
+            if (answer.AnswerId == aId)
+            {
+                count += 1;
+            }
+        }
+        return count;
+    }
+
+    double MedianScore()
+    {
+        var sum = 0;
+        var count = 0;
+        foreach (var game in Model.Games)
+        {
+            count += 1;
+            sum += game.Points;
+        }
+        return (double) sum / count!;
+    }
+}
+
+<h1>@Model.Quiz.QuizName statistics</h1>
+<h5>Total times played: @Model.Quiz.TimesPlayed</h5>
+<h5>Median score: @MedianScore()</h5>
+
+@foreach (var item in Model.Quiz.Questions)
+{
+    <h2>@item.QuestionString</h2>
+    <table class="table text-center">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Nr</th>
+            <th scope="col">Answer</th>
+            <th scope="col">Correct</th>
+            <th scope="col">Times answered</th>
+        </tr>
+        </thead>
+        <tbody>
+        @for (int i = 0; i < item.Answers.Count; i++)
+        {
+            <tr>
+                <th scope="row">@(i + 1)</th>
+                <td>
+                    @Html.Raw(item.Answers.ElementAt(i).AnswerString)
+                </td>
+                <td>
+                    @Html.Raw(item.Answers.ElementAt(i).CorrectAnswer) 
+                </td>
+                <td>
+                    @Html.Raw(AnswerCount(item.Answers.ElementAt(i).AnswerId)) 
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+<div>
+    <a asp-page="../Index">Back to List</a>
+</div>

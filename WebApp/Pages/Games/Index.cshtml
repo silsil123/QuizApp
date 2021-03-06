@@ -1,0 +1,82 @@
+@page
+@using System.Dynamic
+@using Domain
+@model QuizApp.Pages_Games.IndexModel
+
+@{
+    ViewData["Title"] = "Games";
+}
+
+@functions
+{
+    Quiz GetQuiz(int qId)
+    {
+        foreach (var quiz in Model.Quizzes)
+        {
+            if (quiz.QuizId == qId)
+            {
+                return quiz;
+            }
+        }
+        return new Quiz();
+    }
+
+    bool QuizExists(int qId)
+    {
+        foreach (var quiz in Model.Quizzes)
+        {
+            if (quiz.QuizId == qId)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+
+<h1>Quizzes</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-page="/Games/Index" asp-route-sort="name">@Html.Raw("Quiz name")</a>
+            </th>
+            <th>
+                <a asp-page="/Games/Index" asp-route-sort="score">@Html.Raw("Score")</a>
+            </th>
+            <th>
+                <a asp-page="/Games/Index" asp-route-sort="player">@Html.Raw("Player")</a>
+            </th>
+            <th>
+                <a asp-page="/Games/Index" asp-route-sort="date">@Html.Raw("Date created")</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Game) {
+    if (QuizExists(item.QuizId))
+    {
+        <tr>
+            <td>
+                @Html.Raw(GetQuiz(item.QuizId).QuizName)
+            </td>
+            <td>
+                @Html.Raw(item.Points + "/" + GetQuiz(item.QuizId).Questions.Count)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlayerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCreated)
+            </td>
+            <td>
+                <a asp-page="./Details" asp-route-id="@item.GameId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.GameId">Delete</a>
+            </td>
+        </tr>
+    }
+}
+    </tbody>
+</table>

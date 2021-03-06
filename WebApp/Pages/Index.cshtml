@@ -1,0 +1,83 @@
+﻿@page
+@using Domain
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@functions
+{
+    string GetCategory(int id)
+    {
+        foreach (var cat in Model.Categories)
+        {
+            if (cat.CategoryId == id)
+            {
+                return cat.CategoryString;
+            }
+        }
+        return "Other";
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to QuizUp!</h1>
+</div>
+<div>
+    <div class="form-inline float-left">
+        <button onclick="window.location.href = '?sort=popular'"
+            type="button" class="btn btn-dark my-0 my-sm-2 mr-1">Most popular quiz
+        </button>
+        <button onclick="window.location.href = '?sort=longest'"
+                type="button" class="btn btn-dark my-0 my-sm-2 mt-1 mb-1 ">Longest quiz
+        </button>
+        <button onclick="window.location.href = '?sort=recent'"
+            type="button" class="btn btn-dark my-0 my-sm-2 mt-1 mb-1 ml-1">Newest quiz
+        </button>
+    </div>
+    <form method="post" class="form-inline float-right">
+        <input asp-for="SortString" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary my-0 my-sm-2" type="submit">Search</button>
+    </form>
+</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            <a asp-page="Index" asp-route-sort="name">@Html.Raw("Quiz name")</a>
+        </th>
+        <th>
+            <a asp-page="Index" asp-route-sort="creator">@Html.Raw("Name of the creator")</a>
+        </th>
+        <th>
+            <a asp-page="Index" asp-route-sort="category">@Html.Raw("Category")</a>
+        </th>
+        <th>
+            <a asp-page="Index" asp-route-sort="date">@Html.Raw("Date created")</a>
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Quiz) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuizName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatorName)
+            </td>
+            <td>
+                @Html.Raw(GetCategory(item.CategoryId))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCreated)
+            </td>
+            <td>
+                <a asp-page="./Play/Index" asp-route-id="@item.QuizId">Play</a> |
+                <a asp-page="./Quizzes/Details" asp-route-id="@item.QuizId">Details</a> |
+                <a asp-page="./Quizzes/Statistics" asp-route-id="@item.QuizId">Statistics</a> 
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
