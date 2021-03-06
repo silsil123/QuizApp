@@ -7,9 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06f99a73-28cc-4eaa-9335-89deca1c3385" name="Default Changelist" comment="Project finished.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="06f99a73-28cc-4eaa-9335-89deca1c3385" name="Default Changelist" comment="Added QuizApp project." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +17,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/D35053D2-E5E7-4729-A8DF-437D4A5E7C1E/F/RazorPageOfT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -156,7 +155,7 @@
       <workItem from="1609684902147" duration="429000" />
       <workItem from="1610036105260" duration="320000" />
       <workItem from="1615055688001" duration="1951000" />
-      <workItem from="1615057831462" duration="326000" />
+      <workItem from="1615057831462" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, webpage scaffolded.">
       <created>1609602148748</created>
@@ -179,7 +178,13 @@
       <option name="project" value="LOCAL" />
       <updated>1609647682605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Added QuizApp project.">
+      <created>1615058431262</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1615058431262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +208,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First commit, webpage scaffolded." />
     <MESSAGE value="Project finished." />
-    <option name="LAST_COMMIT_MESSAGE" value="Project finished." />
+    <MESSAGE value="Added QuizApp project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added QuizApp project." />
   </component>
 </project>
